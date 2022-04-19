@@ -8,11 +8,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AndroidApp"
 include ':app'
-include ':mnotification'
-include ':myapplication'
 include ':notification'
 include ':toolbar'
-include ':notificationdemo'
 include ':popupwindow'
 include ':mrecyclerview'
 include ':viewpage'
