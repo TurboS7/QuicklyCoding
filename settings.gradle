@@ -7,7 +7,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AndroidApp"
-include ':alertdialog'
+include ':app'
 include ':mnotification'
 include ':myapplication'
 include ':notification'

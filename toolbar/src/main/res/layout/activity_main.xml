@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bar_m"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#ffaaaa"
+        app:logo="@drawable/imag_msg"
+        app:logoDescription="logo"
+        app:navigationIcon="@drawable/abc_vector_test"
+        app:subtitle="subbar"
+        app:title="Bar"
+        app:titleMarginStart="90dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bar_m1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="12dp" />
+
+
+</LinearLayout>
