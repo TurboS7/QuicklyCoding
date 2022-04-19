@@ -1,0 +1,23 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "AndroidApp"
+include ':alertdialog'
+include ':mnotification'
+include ':myapplication'
+include ':notification'
+include ':toolbar'
+include ':notificationdemo'
+include ':popupwindow'
+include ':mrecyclerview'
+include ':viewpage'
+include ':fragment'
+include ':fragmentmanager'
+include ':viewpage2'
+include ':fragmentandviewpage2'
+include ':viewpage2withfragement'
