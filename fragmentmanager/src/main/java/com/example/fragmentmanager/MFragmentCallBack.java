@@ -1,0 +1,1 @@
+package com.example.fragmentmanager;public interface MFragmentCallBack {    void sendMsgToActivity(String msg);    String getMsgFromActivity();}
